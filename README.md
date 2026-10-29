@@ -1,15 +1,22 @@
-## Tyler Briles
+## Hi, I'm Ty 👋
 
-AI Tech Lead at Orion Innovation, placed full-time at PwC, and a principal-level software engineer. I lead the design and delivery of generative AI applications, and I've spent 13 years shipping production systems: mobile web at Macy's and CBS Interactive, Kubernetes and Go platform work at PG&E (promoted to Principal), serverless AWS at Black Box VR and on government cloud.
+I've been shipping software since jQuery was cool. These days I'm an AI Tech Lead (Orion Innovation, placed at PwC), which mostly means I get paid to argue with language models so other people don't have to.
 
-At home I run what I'd run at work: a bare-metal Talos Linux Kubernetes cluster and an ARM k3s edge node hosting a self-hosted mail server, photo library, password vault and Home Assistant, managed as code with AI coding agents.
+**Things I believe**
 
-**Selected work**
+- If it runs at home, it should run like prod. My homelab has a bare-metal Talos Kubernetes cluster, an ARM edge node, its own mail server, and more runbooks than my house has rooms.
+- Every outage deserves a post-mortem, even when the root cause is "someone bumped the power strip."
+- Rust is worth the borrow checker. Usually.
+- Dry run by default. Ask me how I learned that.
 
-- [contacts-sync](https://github.com/tywrr/contacts-sync): Rust. Makes contacts edited in vCard 4 / JMAP clients show up properly in Apple Contacts over CardDAV. Dry run by default, conditional writes, tested, runs as a Kubernetes CronJob.
-- [git-omz-bash](https://github.com/tywrr/git-omz-bash): all 207 Oh My Zsh Git aliases and 18 functions for Bash, with behavioral tests and ShellCheck.
-- [omarchy-on-mac](https://github.com/tywrr/omarchy-on-mac): an Omarchy-style keyboard workflow on a corporate macOS laptop, with the research behind each tool choice.
+**Things I've built that you can actually use**
 
-**Stack:** Go, Rust, Python, TypeScript · Kubernetes, Helm, Flux, Terraform/OpenTofu · AWS, GCP · LLMs, RAG, MCP, AI agents
+- [contacts-sync](https://github.com/tywrr/contacts-sync): teaches Apple Contacts to read what modern contact apps write. Rust, tested, and it refuses to delete more than three groups without a second opinion.
+- [git-omz-bash](https://github.com/tywrr/git-omz-bash): all 207 Oh My Zsh Git aliases, for people who never left Bash.
+- [omarchy-on-mac](https://github.com/tywrr/omarchy-on-mac): making a corporate MacBook feel like Arch + Hyprland without doing anything IT would frown at.
 
-[LinkedIn](https://www.linkedin.com/in/tylerbriles)
+**Currently:** daily-driving Omarchy, letting AI agents help run my Home Assistant (supervised, like a teenager with a learner's permit), and slowly moving my life off other people's clouds.
+
+**Previously:** Macy's, CBS Interactive, PG&E (introduced Go, got promoted to Principal), a VR fitness startup, and government cloud.
+
+The serious version lives on [LinkedIn](https://www.linkedin.com/in/tylerbriles).
