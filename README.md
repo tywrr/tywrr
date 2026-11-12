@@ -11,9 +11,15 @@ I've been shipping software since jQuery was cool. These days I'm an AI Tech Lea
 
 **Things I've built that you can actually use**
 
+- [chance-of-files](https://github.com/tywrr/chance-of-files): remote MCP connector for pCloud — Rust core in the homelab, Cloudflare OAuth Worker up front, so Claude Duet can work with your files without leaving credentials behind in an ephemeral VM.
+- [chance-of-pim](https://github.com/tywrr/chance-of-pim): sister server for mail, calendars, tasks, and contacts (IMAP/SMTP, CalDAV, CardDAV) — same OAuth-fronted setup, no long-lived tokens on the client.
 - [contacts-sync](https://github.com/tywrr/contacts-sync): teaches Apple Contacts to read what modern contact apps write. Rust, tested, and it refuses to delete more than three groups without a second opinion.
 - [git-omz-bash](https://github.com/tywrr/git-omz-bash): all 207 Oh My Zsh Git aliases, for people who never left Bash.
 - [omarchy-on-mac](https://github.com/tywrr/omarchy-on-mac): making a corporate MacBook feel like Arch + Hyprland without doing anything IT would frown at.
+
+**Upstream fixes**
+
+- [thedavidweng/amazon-photos#25](https://github.com/thedavidweng/amazon-photos/pull/25) (merged): stopped the Go SDK's 30-second `http.Client.Timeout` from hanging up on streamed Amazon Photos downloads mid-file.
 
 **Currently:** daily-driving Omarchy, letting AI agents help run my Home Assistant (supervised, like a teenager with a learner's permit), and slowly moving my life off other people's clouds.
 
